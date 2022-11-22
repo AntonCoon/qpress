@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "qpress"
+version = "0.1.0"
+description = ""
+authors = ["Anton"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+numpy = "^1.23.5"
+matplotlib = "^3.6.2"
+keras = "^2.11.0"
+biopython = "^1.80"
+tensorflow = "^2.11.0"
+plotly = "^5.11.0"
+pandas = "^1.5.1"
+statsmodels = "^0.13.5"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
